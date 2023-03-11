@@ -16,7 +16,7 @@ Per quanto riguarda `B-TREE-DELETE`, Cormen non fornisce lo pseudocodice ma solt
 Sebbene il codice della procedure che ho prodotto possa sembrare lungo e astruso, in realtà è l'esatta mappatura dei punti illustrati dall'autore. Quindi niente paura perché è più semplice di quanto possa apparire.
 
 Il codice è riccamente commentato, nella speranza che possa essere il più immediatamente comprensibile.
-In ogni caso è necessario, ovviamente, leggere a fondo ciascun paragrafo e, sopratutto, lo pseudocodice, prima di passare all'implementazione di una procedure repo.
+In ogni caso è necessario, ovviamente, leggere a fondo ciascun paragrafo e, sopratutto, lo pseudocodice, prima di passare all'implementazione di una procedure.
 
 Nel `main()` ho costruito un albero uguale a quello presente in _figura 18.8_ del libro. In seguito, a titolo di esempio, ho eseguito tutti i passi della figura, compreso l'_esercizio 18.3-1_.
 
