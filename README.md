@@ -29,3 +29,4 @@ Per quanto riguarda le chiavi che possono essere inserite nell'albero, allo stat
 Tutto il lavoro svolto fino ad ora è un _work in progress_. In particolare occorre, come minimo:
 - [ ] Eliminare la dipendenza dalla costante simbolica `CORMEN_ORDER`
 - [ ] _Templatizzare_ la classe BTree in modo da poter contenere elementi definiti dall'utente (e non soltanto di tipo `char`)
+- [ ] Persistenza su disco 

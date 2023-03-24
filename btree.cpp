@@ -166,7 +166,7 @@ bool BTree::remove(const char key, Node* current) {
         current->keys[i] = predecessor_key;
         return true;
       }
-      else {  //y ha meno di t chiavi. Tento il Caso 2b //DOTEST
+      else {  //y ha meno di t chiavi. Tento il Caso 2b
         Node* z = current->children[i+1]; //ottengo il figlio successore di key
         if(z->key_count > min_keys()) { //è proprio il caso 2b!
           char predecessor_key = precedessor(key, z);  //ottengo la posizione del precedessore. Procedo come descritto in Cormer
